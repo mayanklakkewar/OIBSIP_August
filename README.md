@@ -79,8 +79,8 @@ To view these websites locally, follow these steps:
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email**: your.email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: mayanklakkewar.work@gmail.com
+- **GitHub**: [mayanklakkewar](https://github.com/mayanklakkewar)
 
 ---
 
