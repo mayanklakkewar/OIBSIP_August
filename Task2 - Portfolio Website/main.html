@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- ======  CSS  ======= -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+
+</head>
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#"><span>v</span>Port-folio</a>
+            </div>
+            <div class="nav_menu_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id = "nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#review">Testimonials</a></li>
+            <li><a href="assets/CV.pdf" download = "">Download CV</a></li>
+        </ul>
+        <div class="nav_btn">
+            <a href="assets/CV.pdf" download="">Download CV</a>
+        </div>
+    </nav>
+    
+
+    <header class="section_container header_container" id="about">
+        <div class="header_image">
+            <img src="assets/header.png" alt="header">
+        </div>
+        <div class="header_content">
+            <p class="section_subheader">Welcome</p>
+            <h1>I have <span>Creative Design</span> Experience</h1>
+            <p class="section_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ipsa sapiente neque id fugiat quasi mollitia illum similique 
+                 amet. Repellendus, dolorem?
+            </p>
+            <div class="header_btns">
+                <button class = "btn">Contact Me</button>
+                <a href="#" class = "special">
+                    View Portfolio
+                </a>
+            </div>
+        </div>
+
+    <!-- ============  Stats Content ================== -->
+
+    </header>
+    <section class="section_container stats_container">
+        <div class="stats_card">
+            <h4>80+</h4>
+            <p>Satisfied Clients</p>
+        </div>
+        <div class="stats_divider"></div>
+        <div class="stats_card">
+            <h4>200+</h4>
+            <p>Project Completed</p>
+        </div>
+        <div class="stats_divider"></div>
+        <div class="stats_card">
+            <h4>99+</h4>
+            <p>Reviews given</p>
+        </div>
+    </section>
+
+    <!-- ==============  Skill Cards  ================ -->
+
+    <section class="section_container skill_container" id="skill">
+        <div class="skill_content">
+            <p class="section_subheader">My Skills</p>
+            <h2 class="section_header">
+                Why Hire Me for Next <span>Project?</span>
+            </h2>
+            <p class="section_description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Obcaecati, natus! Lorem ipsum dolor sit amet.
+            </p>
+            <div class="skill_btn">
+                <button class="btn">Hire ME</button>
+            </div>
+        </div>
+            <div class="skill_grid">
+                <div class="skill_card"><span><i class="ri-pulse-line"></i></span>
+                <h4>Visual Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, quis!
+
+                </p>
+            </div>
+            <div class="skill_card">
+                <span><i class="ri-pencil-ruler-2-line"></i></span>
+                <h4>Design Prototype</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis voluptatibus voluptatem maiores nulla corporis.</p>
+            </div>
+            <div class="skill_card">
+                <span><i class="ri-graduation-cap-line"></i>line</span>
+                <h4>UX Research</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorem sequi soluta, itaque at fugiat?</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio_container" id = "Portfolio">
+        <div class="portfolio_content">
+            <p class="section_subheader">Portfolio</p>
+            <h2 class="section_header">
+                My creative works Latest <span>Project</span>
+            </h2>
+            <p class="section_description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda rerum quidem vitae quisquam facere?
+            </p>
+            <div class="portfolio_btn">
+                <button class = "btn">Show More</button>
+            </div>
+        </div>
+        <div class="portfolio_image_wrapper">
+            <div class="portfolio_image">
+                <img src="assets/portfolio-1.jpg" alt="Portfolio">
+                <img src="assets/portfolio-2.png" alt="Portfolio">
+                <img src="assets/portfolio-3.png" alt="Portfolio">
+                <img src="assets/portfolio-4.png" alt="Portfolio">
+                <img src="assets/portfolio-5.png" alt="Portfolio">
+                <img src="assets/portfolio-6.jpg" alt="Portfolio">
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container review_container" id = "review">
+        <p class="section_subheader">Reviews</p>
+        <h2 class="section_header">
+            Our Customer Say Someting <span>About Us</span>
+        </h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="review_card">
+                            <div class="review_ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus nihil porro laudantium aliquam pariatur et?
+                            </p>
+                            <div class="review_details">
+                                <img src="assets/review-1.jpg" alt="review">
+                                <div>
+                                    <h4>John Doe</h4>
+                                    <h5>CEO at Tech Innovations</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review_card">
+                            <div class="review_ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus nihil porro laudantium aliquam pariatur et?
+                            </p>
+                            <div class="review_details">
+                                <img src="assets/review-2.jpg" alt="review">
+                                <div>
+                                    <h4>Jane Smith</h4>
+                                    <h5>Manager at Creative Solution</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review_card">
+                            <div class="review_ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus nihil porro laudantium aliquam pariatur et?
+                            </p>
+                            <div class="review_details">
+                                <img src="assets/review-3.jpg" alt="review">
+                                <div>
+                                    <h4>Alice Brown</h4>
+                                    <h5>Freelance Graphic Designer</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review_card">
+                            <div class="review_ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus nihil porro laudantium aliquam pariatur et?
+                            </p>
+                            <div class="review_details">
+                                <img src="assets/review-3.jpg" alt="review">
+                                <div>
+                                    <h4>Robert White</h4>
+                                    <h5>Product Manager at WebCrop</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review_card">
+                            <div class="review_ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Doloribus nihil porro laudantium aliquam pariatur et?
+                            </p>
+                            <div class="review_details">
+                                <img src="assets/review-3.jpg" alt="review">
+                                <div>
+                                    <h4>Emily Green</h4>
+                                    <h5>Entrepreneur</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section_container contact_container">
+        <p class="section_subheader">Contact</p>
+        <h2 class="section_header">Let's Discuss Your <span>Project</span></h2>
+        <p class="section_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium quidem quaerat obcaecati impedit tenetur!
+        </p>
+        <form action="/">
+            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Your email">
+            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Budget">
+            <textarea placeholder="Message"></textarea>
+        </form>
+
+        <button class="btn">Submit</button>
+    </section>
+
+
+    <footer class="section_container footer_container">
+        <p>Copyright 2024 vPort-folio. All rights reserved.</p>
+        <ul class="footer_socials">
+            <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="stylesheet.js"></script>
+</body>
+</html>
