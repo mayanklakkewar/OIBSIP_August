@@ -28,13 +28,19 @@ The first task is to create a landing page for a coffee shop. The website provid
 
 ## Task 2: Portfolio Website
 
-The second task is to build a personal portfolio website to showcase skills, projects, and contact information. It is ideal for developers and designers to present their work and achievements.
+The second task is to build a personal portfolio website to showcase skills, projects, testimonials, and contact information. It is ideal for developers and designers to present their work and achievements.
 
 ### Features:
-- Responsive design that adapts to all devices.
-- Smooth scrolling and interactive elements.
-- Sections for About Me, Skills, Projects, and Contact.
-- A visually appealing layout with animations.
+- **Responsive Navigation Bar**: A clean and responsive navigation bar that includes links to sections such as About, Skills, Portfolio, Testimonials, and Contact, with options to download the CV.
+- **Hero Section with Introduction**: A welcoming hero section featuring an introduction, a header image, and a call to action for contacting or viewing the portfolio.
+- **Skills Section**: Highlights skills with visually appealing cards that explain different services or expertise areas such as Visual Design, Design Prototype, and UX Research.
+- **Portfolio Section**: Showcases a gallery of creative works and projects with a "Show More" button to display additional content.
+- **Testimonials Slider**: A dynamic testimonial slider using the Swiper library to display client feedback and reviews, enhancing social proof.
+- **Contact Form**: A functional contact form where users can enter their details (Full Name, Email, Phone Number, Budget, and Message) to discuss potential projects.
+- **Footer with Social Media Links**: A footer section with copyright information and social media links for Facebook, Twitter, LinkedIn, and Google.
+- **Animated Scroll and Swiper Integration**: The website uses libraries like ScrollReveal and Swiper to enhance user experience with smooth scrolling and interactive carousels.
+- **Statistics Section**: Displays stats like the number of satisfied clients, completed projects, and reviews given to build credibility.
+- **Downloadable CV**: Option to download the user's CV directly from the navigation or within the site content.
 
 ### Demo
 ![Portfolio Website Screenshot](./screenshots/portfolio_website.png)
